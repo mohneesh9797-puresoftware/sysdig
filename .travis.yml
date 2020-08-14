@@ -24,6 +24,12 @@ matrix:
     - env: BUILD_TYPE=Release
       os: linux
     - env: BUILD_TYPE=Debug
+      arch: arm64
+      os: linux
+    - env: BUILD_TYPE=Release
+      arch: arm64
+      os: linux
+    - env: BUILD_TYPE=Debug
       os: osx
     - env: BUILD_TYPE=Release
       os: osx
